@@ -9,6 +9,48 @@ a {
   transition: 0.5s;
 }
 
+@font-face {
+  font-family: 'Marske';
+  src: url('../fonts/Marske.ttf') /*Para os demais navegadores*/;
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Marske';
+  src: url('../fonts/Marske.otf')/*Para navegadores Internet Explorer*/;
+  font-weight: normal;
+  font-style: normal;
+}
+
+.hackSubTitle{
+
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 50px;
+  text-align: center;
+}
+.hackText{
+
+  font-family: 'Marske';
+   color: #f82249;
+   font-size: 150px;
+   text-align: center;
+   text-shadow: 2px 2px #dff9fb;
+  
+
+
+
+}
+
+.hackathon{
+ 
+  background-image: url(../img/Hackhaton/hackhaton.jpg);
+  background-attachment: scroll;
+  height: 600px;
+}
+
+
 a:hover,
 a:active,
 a:focus {
