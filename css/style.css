@@ -37,10 +37,25 @@ a {
    font-size: 150px;
    text-align: center;
    text-shadow: 2px 2px #dff9fb;
+   -moz-transition: all 0.3s;
+	-webkit-transition: all 0.3s;
+	transition: all 0.3s;
   
 
 
 
+}
+
+.hackText:hover{
+
+  font-family: 'Marske';
+   color: #0ea0da;
+   font-size: 150px;
+   text-align: center;
+   text-shadow: 2px 2px #dff9fb;
+   -moz-transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
 }
 
 .hackathon{
