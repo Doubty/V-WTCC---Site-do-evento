@@ -14,6 +14,7 @@ a {
   src: url('../fonts/Marske.ttf') /*Para os demais navegadores*/;
   font-weight: normal;
   font-style: normal;
+  font-size: 1em;
 }
 
 @font-face {
@@ -21,41 +22,23 @@ a {
   src: url('../fonts/Marske.otf')/*Para navegadores Internet Explorer*/;
   font-weight: normal;
   font-style: normal;
+  font-size: 1m;
 }
 
 .hackSubTitle{
 
   color: white;
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 50px;
+ 
   text-align: center;
 }
+
 .hackText{
 
   font-family: 'Marske';
    color: #f82249;
-   font-size: 6em;
    text-align: center;
    text-shadow: 2px 2px #dff9fb;
-   -moz-transition: all 0.3s;
-	-webkit-transition: all 0.3s;
-	transition: all 0.3s;
-  
-
-
-
-}
-
-.hackText:hover{
-
-  font-family: 'Marske';
-   color: #0ea0da;
-   font-size: 6.1em;
-   text-align: center;
-   text-shadow: 2px 2px #dff9fb;
-   -moz-transform: scale(1.1);
-	-webkit-transform: scale(1.1);
-	transform: scale(1.1);
 }
 
 .hackathon{
