@@ -34,7 +34,7 @@ a {
 
   font-family: 'Marske';
    color: #f82249;
-   font-size: 150px;
+   font-size: 6em;
    text-align: center;
    text-shadow: 2px 2px #dff9fb;
    -moz-transition: all 0.3s;
@@ -50,7 +50,7 @@ a {
 
   font-family: 'Marske';
    color: #0ea0da;
-   font-size: 150px;
+   font-size: 6.1em;
    text-align: center;
    text-shadow: 2px 2px #dff9fb;
    -moz-transform: scale(1.1);
